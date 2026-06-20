@@ -7,8 +7,8 @@ body{
     /*border: 1px solid red;*/
     position: absolute;
     text-align: center;
-    top: 200px;
-    left: 200px;
+    top: 25%;
+    left: 25%;
 }
 .curtains{
     width: 101%;
