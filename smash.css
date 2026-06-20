@@ -1,0 +1,50 @@
+body{
+    background-color: LightBlue;
+    cursor: url("https://codehs.com/uploads/589831035851d18d9b4a012f442d39e5"), auto;
+}
+p{
+    color: LightBlue;
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+}
+
+#container{
+    background-color: LightBlue;
+    width: 100%;
+    aspect-ratio: 10 / 3;
+}
+#game_piece{
+    background-image: url("https://codehs.com/uploads/20d54272f48c4d4f34c3b32cc2b5c2ce");
+    background-size: 100%;
+    width: 8%;
+    aspect-ratio: 1 / 1;
+    border-radius: 100%;
+    position: absolute;
+    background-size: cover;
+}
+#heading{
+    width: 100%;
+    height: 20%;
+}
+#obstacle{
+    background-image: url("https://cmsv2-assets.apptegy.net/uploads/3846/logo/682/Tahoka_ISD__Texas_Logo.png");
+    width: 24%;
+    aspect-ratio: 1 / 1;
+    position: absolute;
+    background-size: cover;
+    left: 20%;
+    animation: slide 60s infinite;
+}
+
+@keyframes slide{
+    0%{
+        left: 20%;
+    }
+    50%{
+        left: 50%;
+    }
+    100%{
+        left: 20%;
+    }
+}
