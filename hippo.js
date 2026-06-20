@@ -1,5 +1,5 @@
-let xPosition = 200;
-let yPosition = 200;
+let xPosition = $(".curtains").width()*.25;
+let yPosition = $(".curtains").height()*.25;
 $("body").on("keydown",pressKey);
 $("body").on("keyup",releaseKey);
 let xTimer = null;
